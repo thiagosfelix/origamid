@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsivo.css">
+		<script>
+			document.documentElement.classList.add("js");
+		</script>
 	</head>
 	<body>
 
@@ -29,16 +32,16 @@
 
 		<section class="introducao">
 			<div class="container">
-				<h1>Bicicletas Feitas a Mão</h1>
-				<blockquote class="quote-externo">
-					<p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
+				<h1 data-anime="400" class="fadeInDown">Bicicletas Feitas a Mão</h1>
+				<blockquote data-anime="800" class="fadeInDown quote-externo">
+					<p>“não tenha nada em sua casa que você não considere útil ou acredite ser bonito”</p>
 					<cite>WILLIAM MORRIS</cite>
 				</blockquote>
-				<a href="produtos.html" class="btn">Orçamento</a>
+				<a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
 			</div>
 		</section>
 		
-		<section class="produtos container">
+		<section class="produtos container fadeInDown" data-anime="1600">
 			<h2 class="subtitulo">Produtos</h2>
 			<ul class="produtos_lista">
 
@@ -141,7 +144,7 @@
 					</div>
 
 					<div class="grid-4 footer_redes">
-						<h3>Contato</h3>
+						<h3>Redes Sociais</h3>
 						<ul>
 							<li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
 							<li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
@@ -154,10 +157,13 @@
 
 			<div class="copy">
 				<div class="container">
-					<p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
+					<p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
 				</div>
 			</div>
 		</footer>
+
+		<script src="js/simple-anime.js"></script>
+		<script src="js/script.js"></script>
 
 	</body>
 </html>
